@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class TemperatureData extends Model
 {
     use HasFactory;
+    protected $fillable = ['suhu', 'kelembaban', 'gas', 'status'];
 
 }
