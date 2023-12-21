@@ -41,7 +41,7 @@ class TemperatureDataController extends Controller
 
         ]);
         return response()->json([
-            'ayam gaming' => 'kontol'
+            'message' => 'Data Berhasil Dikirim'
 
         ]);
     }
