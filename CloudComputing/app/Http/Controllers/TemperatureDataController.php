@@ -13,10 +13,10 @@ class TemperatureDataController extends Controller
     public function index()
     {
         $temperatureData = TemperatureData::all();
-       return response()->json([
-            'code'=>200,
-            'status'=>'success',
-            'temperatureData'=>$temperatureData
+        return response()->json([
+            'code' => 200,
+            'status' => 'success',
+            'temperatureData' => $temperatureData
         ]);
     }
 
@@ -25,7 +25,7 @@ class TemperatureDataController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -33,7 +33,17 @@ class TemperatureDataController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        TemperatureData::create([
+            'suhu' => $request->suhu,
+            'kelembaban' => $request->kelembaban,
+            'gas' => $request->gas,
+            'status' => $request->status,
+
+        ]);
+        return response()->json([
+            'ayam gaming' => 'kontol'
+
+        ]);
     }
 
     /**
