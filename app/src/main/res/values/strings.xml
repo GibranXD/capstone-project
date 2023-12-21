@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SmartBlaze</string>
+    <string name="signup">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">A real-time smart fire detection system application with integrated AI. Try it out now!</string>
+    <string name="title_welcome_page">Welcome to SmartBlaze! Lets take a look at your room temperature down below.</string>
+    <string name="title_signup_page">Register your SmartBlaze account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_conf">Password Confirmation</string>
+    <string name="message_login_page">Login with your account first.</string>
+    <string name="title_login_page">Ready to use SmartBlaze?</string>
+    <string name="name">Name</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Hi %1$2s,</string>
+    <string name="logout">Log Out</string>
+    <string name="errormail">Email tidak Valid</string>
+    <string name="dummyname">Gibran</string>
+    <string name="dummydesc">Lorem ipsum sit dolor amet, lorem ipsum sit dolor amet</string>
+    <string name="dark_mode">Dark Mode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+</resources>
