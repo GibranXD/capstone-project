@@ -49,9 +49,21 @@ class TemperatureDataController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(TemperatureData $temperatureData)
+    public function show($id)
     {
-        //
+        $temperatureData = TemperatureData::find($id);
+
+        if ($temperatureData) {
+            return response()->json([
+                'status' => 'success',
+                'data' => $temperatureData
+            ], 200);
+        } else {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'TemperatureData not found'
+            ], 404);
+        }
     }
 
     /**

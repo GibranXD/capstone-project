@@ -19,3 +19,4 @@ yarn-error.log
 /.vscode
 Dockerfile
 cloudbuild.yaml
+.env.example
